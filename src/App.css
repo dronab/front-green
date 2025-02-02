@@ -1,0 +1,51 @@
+.App {
+  display: flex;
+}
+
+.container-list-contacts {
+  display: flex;
+  width: 450px;
+  min-width: 450px;
+  height: 100vh;
+  flex-direction: column;
+  background: #ebebeb;
+}
+
+.container-list-msg {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.contact-mnu {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: aquamarine;
+  align-items: center;
+}
+
+.list-contacts-items {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.add-new-chat-contact {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-chat-mnu {
+  margin: 0px 6px;
+  cursor: pointer;
+}
+
+.empty-dialog {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}

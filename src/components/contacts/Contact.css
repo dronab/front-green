@@ -1,0 +1,9 @@
+.contacts-item {
+    padding: 8px;
+    background: #c7c7c7;
+    cursor: pointer;
+}
+
+.contacts-item:hover {
+    background: gainsboro;
+}
